@@ -4,30 +4,73 @@
 }
 
 body{
-    background-color: black;
+    background-color: bisque;
 }
 
-.card{
-    background-color: white;
-    margin: auto;
-    width: 40%;
-    height: 350px;
-    border-radius: 10px;
-    margin-top: 50px;
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.to-do-list{
-    width: 95%;
-    padding-top: 35px;
+.body{
+    background-color: #fff;
+    width: 25%;
     height: 300px;
-    margin: auto;
-    background-color: white;
+    border-radius: 20px;
+    margin-top: 100px;
 }
 
-.to-do-list h1{
+h1{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
     text-transform: uppercase;
     font-family: sans-serif;
-    color: black;
-    text-align: center;
+}
+
+input{
+    margin-left: 25px;
     margin-bottom: 10px;
+    height: 35px;
+    padding-left: 10px;
+    width: 80%;
+}
+
+#button{
+    width: 84%;
+    height: 35px;
+    background-color: rgb(60, 187, 60);
+    border: none;
+    border-radius: 5px;
+}
+
+h4{
+    margin-left: 25px;
+    margin-top: 20px;
+    font-weight: normal;
+    font-family: sans-serif;
+}
+
+button{
+    margin-top: 10px;
+    text-align: center;
+    height: 25px;
+    width: 20%;
+}
+
+#Modifier{
+    margin-left: 150px;
+    background-color: darkslategrey;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#Supprimer{
+    margin-left: 5px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
 }
